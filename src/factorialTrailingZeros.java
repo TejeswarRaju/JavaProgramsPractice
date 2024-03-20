@@ -16,9 +16,9 @@ public class factorialTrailingZeros {
 		}
 		System.out.println(fact);
 		int result=0;
-		while(fact%10==0){
-			result++;
-			fact=fact/10;
+		for(int i=5;i<=n;i=i*5){
+			result=result+n/i;
+
 		}
 		System.out.println(result);
 	}
