@@ -33,5 +33,10 @@ public class GCD {
 		}
 		return x;
 	}
-
+//efficient method than above program is
+if(y==0){
+			return x;
+		}
+			return gcd(y,x%y);
+}
 }
