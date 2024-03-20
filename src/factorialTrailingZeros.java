@@ -41,3 +41,4 @@ public static void trailingZeros(){
 		}
 		System.out.println(result);
 	}
+Time complexity is theta logn.
