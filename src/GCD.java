@@ -33,7 +33,11 @@ public class GCD {
 		}
 		return x;
 	}
-//efficient method than above program is
+//efficient method than above program is                //optimize solution for LCM:
+                                                        if(b==0){ return a;return gcd(b,a%b);}
+                                                        int lcm(int a,int b){
+								return (a*b)/gcd(a,b);
+							}
 if(y==0){
 			return x;
 		}
