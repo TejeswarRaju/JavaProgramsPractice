@@ -19,5 +19,7 @@ public class BitWiseOperators {
 		//unsigned right Shift operator
 		int a=-2;
 		System.out.println(a>>>1);
+		int mask=1;
+		System.out.println(mask<<3);
 	}
 }
